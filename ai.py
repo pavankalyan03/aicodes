@@ -17,7 +17,7 @@ for i in range(a):
             print("moving to next location")
 print("vaccum cleaner task is completed")
 
-2.Missionaries and cannibals
+#2.Missionaries and cannibals
 print("\n")
 print("\tGame Start\nNow the task is to move all of them to right side of the river")
 print("rules:\n1. The boat can carry at most two people\n2. If cannibals num greater then missionaries then the cannibals would eat the missionaries\n3. The boat cannot cross the river by itself with no people on board")
@@ -110,7 +110,7 @@ try:
 except EOFError as e:
 print("\nInvalid input please retry !!")
 
-3.Water jug
+#3.Water jug
 ## jug   print("there are two water jugs ")
 print("j1 has 4 liters of water capacity")
 print("j2 has 3 liters of water capacity")
@@ -144,7 +144,7 @@ if b==4:
     b=b-2
 print("J1 has",b,"ltrs of water ")
 
-Farmer goat wolf cabbage
+#Farmer goat wolf cabbage
 print("farmer wants to cross a river with goat,wolf,cabbage")
 print("The boat can carry only two persons one is farmer and the other would be a wolf or a goat or a cabbage")
 print("W,C,G,F----0 to move from left to right")
@@ -195,7 +195,7 @@ elif a=="wolf":
 else:
     print("wolf eats goat you lost the game")
 
-Breadth first search
+#Breadth first search
 graph = {
   'start' : ['d','e','p'],
   'd' : ['b', 'c',],
@@ -230,7 +230,7 @@ def bfs(visited, graph, node):
 print("Following is the Breadth-First Search")
 bfs(visited, graph, 'start')
 
-Block world
+#Block world
 a=["B","C","D","A"]
 k=['A','B','C','D']
 print('THE INITIAL STATE IS:',a)
@@ -325,7 +325,7 @@ while True:
         print('WRONG INPUT IS GIVEN \n START OVER')
         Break
 
-Puzzle
+#Puzzle
 class Node:
     def _init_(self,data,level,fval):
         self.data = data
@@ -429,7 +429,7 @@ class Puzzle:
 puz = Puzzle(3)
 puz.process()
 
-Wumpus
+#Wumpus
 
 world = [
     ["S"," "," "," "],
@@ -644,7 +644,7 @@ def solveCryptarithmeticBruteForce(inListNumsAsString, inResultStr, inPossibleNu
 for i in range(len(inResultsArray)):
     solveCryptarithmeticBruteForce(inListNumsAsStringArray[i], inResultsArray[i], inPossibleNumsAsStr)
 
-Tic tac toe
+#Tic tac toe
 
 import random
 
@@ -771,7 +771,7 @@ class TicTacToe:
 tic_tac_toe = TicTacToe()
 tic_tac_toe.start()
 
-Decision tree
+#Decision tree
 
 import numpy as np
 import pandas as pd
@@ -818,7 +818,7 @@ plt.show()
 # print(X)
 # print(acc)
 
-Cluster
+#Cluster
 from numpy import unique
 from numpy import where
 from sklearn.datasets import make_classification
